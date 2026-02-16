@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VVD News</title>
+</head>
+<body style="text-align:center; margin-top:100px; font-family:Arial;">
+
+<h2>VVD News Website</h2>
+
+<button onclick="shareWhatsApp()" style="padding:15px 25px; font-size:18px;">
+Share on WhatsApp
+</button>
+
+<script>
+function shareWhatsApp() {
+  var url = "https://vvdspotnew.vercel.app/";
+  window.open("https://wa.me/?text=" + encodeURIComponent(url), "_blank");
+}
+</script>
+
+</body>
+</html>
